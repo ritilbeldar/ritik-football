@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+}
+nav h2{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.623);
+    font-weight: 600;
+}
+nav img{
+    height: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 8vmax;
+    background-attachment: fixed;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 0 17px;
+}
+nav input{
+    height: 2.5vmax;
+    width: 11vmax;
+    border-radius:40px;
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: transparent;
+    border: .1px solid black;
+}
+nav ::placeholder{
+    color: black;
+    font-weight: 500;
+}
+nav i{
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.center-football{
+    display: flex;
+    padding: 0 60px;
+    margin-top: 2%;
+}
+.center-football-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.center-football-left h2{
+    margin-top: 5%;
+    width: 30vmax;
+    font-size: 45px;    
+    color: rgba(0, 0, 0, 0.623);
+}
+.center-football-left p{
+    font-weight: 500;
+    font-size: 19.5px;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+}
+.center-football-left button{
+    margin-top: 3%;
+    font-size: 17px;
+    padding: 12px 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: wheat;
+    border: none;
+    transition: .25s;
+}
+.center-football-left button:hover{
+    background-color: black;
+    color: white;
+}
+.center-football-lefT img{
+    height: 858px;
+}
+.bg-img{
+    background: url(/tem_football-removebg-preview.png);
+    width: 93.1%;
+    height: 45vmax;
+    background-color: rgb(69, 44, 130);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-position: center;
+    margin-left: 3%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bg-img-top{
+    display: flex;
+    align-items:center;
+    margin-top: 2%;
+    margin-left: 55%;
+    color: white;       
+}
+.bg-img-top h2{
+    font-size: 40px;
+    width: 12.5vmax;
+    font-weight: 500;
+    margin-top: -5%;
+}
+.bg-img-top h4{
+    margin-top: 4%;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.bg-img-top button{
+    margin-top: 10%;
+    font-size: 17px;
+    padding: 12px 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: wheat;
+    border: none;
+    transition: .25s;
+}
+.bg-img-top button:hover{
+    background-color: black;
+    color: white;
+}
+.bg-img-top img{
+    height: 220px;
+    padding: 20px;
+    background-color: rgb(195, 197, 205);
+    margin-left: 3%;
+    box-shadow: 5px 5px 30px white;
+    border-radius: 20px;
+}
+.bg-img-bottom{
+    margin-top: 15%;
+    display: flex;
+    margin-left: 6%;
+    flex-direction: column;
+}
+.bg-img-bottom h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.bg-img-bottom h2{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+}
+.bg-img-bottom i{
+    color: wheat;
+}
+.best-sell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: -4.5%;
+}
+.best-sell h1{
+    font-size: 60px;
+    width: 25vmax;
+    margin-left: 10%;
+    color: rgba(0, 0, 0, 0.623);
+    font-weight: 400;
+}
+.best-sell-bottom{
+    display: flex;
+    gap: 1%;
+}
+.best-sell-bottom img{
+    height: 350px;
+}
+.all-best-sell{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.all-best-sell img{
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(241, 243, 244);
+    transition: .35s;
+    cursor: pointer;
+}
+.all-best-sell img:hover{
+    box-shadow: .5px .5px 7px rgba(0, 0, 0, 0.285);
+    transform: translate(0,-15px);
+}
+.all-best-sell h4{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.all-best-sell button{
+    font-size: 15px;
+    margin-top: 5%;
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: wheat;
+    transition: .25s;
+    cursor: pointer;
+}
+.all-best-sell button:hover{
+    background-color: black;
+    color: white;
+}
+.last-bg{
+    background: url(https://static.wixstatic.com/media/c837a6_877ce03f0eaa4a07a2b40663049d5916~mv2.jpg/v1/fill/w_1899,h_1370,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_877ce03f0eaa4a07a2b40663049d5916~mv2.jpg);
+    height: 50vmax;
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last-bg h1{
+    margin-top: 25%;
+    font-weight: 500;
+    width: 30vmax;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.916);
+    /* text-transform: uppercase; */
+}
+.last-bg h4{
+    margin-top: 5%;
+    font-size: 27px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.614);
+    text-transform: uppercase;
+}
+.last-bg button{
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: wheat;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .30s;
+}
+.last-bg button:hover{
+    background-color: black;
+    color: white;
+}
+.last{
+    display: flex;
+    width: 100%;
+    height: 23vmax;
+    color: white;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(31, 66, 172);
+}
+.last-left h2{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.last-left h2 img{
+    height: 60px;
+}
+.last-right{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: space-between;
+    width: 40vmax;
+    /* background-color: red; */
+}
+.last-right-upper{
+    display: flex;
+    justify-content: space-around;
+}
+.last-right-upper h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.last-right-upper p{
+    margin-top: 10%;
+    line-height: 25px;
+}
+.last-ul li{
+    list-style-type: none;
+    margin-top: 20%;
+}
+.last-ul h2{
+    margin-bottom: 5%;
+}
+.last-right-lower{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 40%; */
+    margin-left: 17%;
+}
+.last-right-lower h4{
+    font-weight: 500;
+}
+.las-right-lower-sosial{
+    display: flex;
+    gap: 30px;
+    margin-top: 1%;
+    align-items: center;
+}
+.las-right-lower-sosial input{
+    width: 15vmax;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgb(31, 66, 172);
+}
+.las-right-lower-sosial button{
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: wheat;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .25s;
+}
+.las-right-lower-sosial button:hover{
+    background-color: white;
+    color: black;
+}
+.last-right-lower-sosial-media{
+    display: flex;
+    margin-top: 2%;
+    gap: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.las-right-lower-sosial i{
+    transition: .25s;
+}
+.las-right-lower-sosial i:hover{
+    color: red;
+    transform: translate(0,-5px);
+}
+.last-last{
+    height: 5vmax;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    background-color: rgb(31, 66, 172);
+    color: white;
+}
+.last-last h5{
+    margin-left: 4%;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.last-last span{
+    font-size: 20px;
+    font-weight: 700;
+}
